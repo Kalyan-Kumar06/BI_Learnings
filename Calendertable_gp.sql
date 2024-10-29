@@ -1,5 +1,5 @@
 Calendar = 
-VAR FiscalPeriod = 4 //Here finacal year starts from April to March 
+VAR FiscalPeriod = 4 //Here financial year starts from April to March 
 RETURN
     ADDCOLUMNS (
         CALENDAR ( MIN ( 'Sales Data'[OrderDate] ), TODAY() ), // Min date here sales data [Order Date] - take your report date
